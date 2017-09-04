@@ -15,7 +15,7 @@ public class ArrayListFun {
     private List<Integer> lista;
 
     public ArrayListFun() {
-        this.lista = new ArrayList<Integer>();
+        this.lista = new ArrayList<>();
     }
 
     public void randTenNumbers() {

@@ -11,8 +11,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kursJava-continue-with-Maven" target="1.5" />
-      <module name="TestDrivenDevelopment" target="1.5" />
+      <module name="kursJava-continue-with-Maven" target="1.8" />
+      <module name="TestDrivenDevelopment" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -7,7 +7,7 @@ import java.util.List;
  * Created by Miver on 2017-08-30.
  */
 public class Cart {
-    private List<Product> product = new ArrayList<Product>();
+    private List<Product> product = new ArrayList<>();
 
     public void addProduct(Product p) {
         product.add(p);

@@ -41,7 +41,7 @@ public class StringTest {
     //Test dla listy - sprawdzamy czy lista nie jest nullem i czy nie jest pusta
     @Test
     public void listTest() {
-        List<Object> objects = new ArrayList<Object>();
+        List<Object> objects = new ArrayList<>();
         objects.add(new Object());
 
         //Junit

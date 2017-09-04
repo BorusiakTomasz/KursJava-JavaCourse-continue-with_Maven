@@ -10,6 +10,7 @@ public class SimpleSingleton {
 
     private SimpleSingleton() {}
 
+    //lazy singleton
     public static MobilePhone getInstance() {
         if(mp == null){
             mp = new MobilePhone("123");
