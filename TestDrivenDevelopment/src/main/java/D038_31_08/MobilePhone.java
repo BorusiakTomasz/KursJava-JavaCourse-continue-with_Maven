@@ -1,5 +1,6 @@
 package D038_31_08;
 
+import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;
@@ -9,6 +10,7 @@ import java.util.List;
  * Created by Miver on 2017-08-31.
  */
 @Slf4j
+@NoArgsConstructor
 public class MobilePhone {
     private String myNumber;
     private List<Contacts> myContacts;
