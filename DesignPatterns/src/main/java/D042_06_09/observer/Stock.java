@@ -32,10 +32,11 @@ public class Stock {
             return;
         }
 
+        //wprowadzam zmiany o cenie
         double oldPrice = this.price;
         this.price = price;
-        //powiadomic wszystkich obserwatorow
 
+        //powiadomic wszystkich obserwatorow o zmianie ceny
         PriceChangeEventArgs eventArgs = new PriceChangeEventArgs(oldPrice, price);
         for (Observer o : observers) {
             o.onChange(this, eventArgs);
