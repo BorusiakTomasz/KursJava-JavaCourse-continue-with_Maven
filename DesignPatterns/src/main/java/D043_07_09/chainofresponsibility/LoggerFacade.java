@@ -13,10 +13,7 @@ public class LoggerFacade {
         debug.setNextLogger(error);
     }
 
-//    public LoggerFacade() {
-//        info.setNextLogger(debug);
-//        debug.setNextLogger(error);
-//    }
+    private LoggerFacade() {}
 
     public static void log(LogLevel level, String message) {
         info.logMessage(level,message);
